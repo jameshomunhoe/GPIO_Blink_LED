@@ -1,14 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -Map=Test01.map -O0 --gc-sections -LC:/Users/Student/CoIDE/workspace/Test01 -TC:/Users/Student/CoIDE/workspace/Test01/stm32f407vg_flash.ld -g">
-      <target file="Test01.elf" lastModified="14d891be197">
-         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="14d891bdfad"/>
-         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="14d891bdf03"/>
-         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="14d891bde95"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="14d891bdf3f"/>
-         <source file="..\obj\startup_stm32f429xx.o" lastModified="14d891bdd9b"/>
-         <source file="..\obj\stm32f4xx_hal.o" lastModified="14d891bde09"/>
-         <source file="..\obj\main.o" lastModified="14d891bdd91"/>
+      <target file="Test01.elf" lastModified="14d89d8e95d">
+         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="14d89d1614f"/>
+         <source file="..\obj\Init.o" lastModified="14d89d15e6b"/>
+         <source file="..\obj\Led.o" lastModified="14d89d161a9"/>
+         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="14d89d1609b"/>
+         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="14d89d16023"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14d89d160d7"/>
+         <source file="..\obj\startup_stm32f429xx.o" lastModified="14d89d15ec5"/>
+         <source file="..\obj\stm32f4xx_hal.o" lastModified="14d89d15f8d"/>
+         <source file="..\obj\main.o" lastModified="14d89d8e791"/>
+         <source file="..\obj\Time.o" lastModified="14d89d15f15"/>
       </target>
    </processor>
 </history>
