@@ -1,6 +1,7 @@
 #include "stm32f4xx_hal.h"
 #include "Led.h"
 
+uint_32 currentTime = 0;
 
 uint32_t getCurrentTime(){
 	static uint32_t counter = 0;
